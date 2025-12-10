@@ -97,49 +97,6 @@
 					}
 				},
 				{
-					"type": "Glimbos",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 2,
-					"sid": 414739352995492,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Pegado": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 414739352995492,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 112,
-						"y": 183,
-						"width": 216.89369304026926,
-						"height": 216.89369304026926,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Foco",
 					"properties": {
 						"initially-visible": true,
