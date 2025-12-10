@@ -1,0 +1,9 @@
+{
+	"name": "FuenteTexto",
+	"plugin-id": "TextBox",
+	"sid": 616058105537131,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

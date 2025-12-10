@@ -1,0 +1,9 @@
+{
+	"name": "CPUTexto",
+	"plugin-id": "TextBox",
+	"sid": 875267187070854,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

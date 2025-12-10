@@ -1,0 +1,10 @@
+{
+	"name": "Contador",
+	"plugin-id": "Text",
+	"sid": 603455471822101,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

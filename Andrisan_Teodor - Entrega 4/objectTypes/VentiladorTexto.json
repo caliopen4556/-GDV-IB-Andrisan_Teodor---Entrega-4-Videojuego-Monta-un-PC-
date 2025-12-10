@@ -1,0 +1,9 @@
+{
+	"name": "VentiladorTexto",
+	"plugin-id": "TextBox",
+	"sid": 589648122589260,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

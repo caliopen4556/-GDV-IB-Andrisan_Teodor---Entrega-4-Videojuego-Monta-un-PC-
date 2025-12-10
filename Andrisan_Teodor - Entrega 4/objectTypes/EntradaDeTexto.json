@@ -1,0 +1,9 @@
+{
+	"name": "EntradaDeTexto",
+	"plugin-id": "TextBox",
+	"sid": 639067096666234,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

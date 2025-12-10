@@ -1,0 +1,583 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Contador",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 561625128398319
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "PlacaBase",
+					"sid": 323376412799395
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PlacaBase",
+					"sid": 812398417778535,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 932089584209990
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "CPU",
+					"sid": 602868824293370
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "CPU",
+					"sid": 912503227660375,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 218507006755225
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "FDA",
+					"sid": 119128501153472
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "FDA",
+					"sid": 558589930752673,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 423590299462934
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "GPU",
+					"sid": 297756648351251
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "GPU",
+					"sid": 106147276188493,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 991953431528901
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "RAM",
+					"sid": 989698773084212
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "RAM",
+					"sid": 124419467233533,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 636526951269925
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Ventilador",
+					"sid": 893661769814039
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Ventilador",
+					"sid": 812060530242419,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 389239904318250
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "PlacaBasetexto",
+					"sid": 178133499217851,
+					"parameters": {
+						"text": "\"placa base\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PlacaBase",
+					"sid": 780437020022741,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 429318782081380
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "CPUTexto",
+					"sid": 777437776761489,
+					"parameters": {
+						"text": "\"CPU\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "CPU",
+					"sid": 586808596996120,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 586095834759356
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "FuenteTexto",
+					"sid": 393163474347363,
+					"parameters": {
+						"text": "\"Fuente de alimentación\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "FDA",
+					"sid": 372853068845108,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 986773163733066
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "GPUTexto",
+					"sid": 757324835907462,
+					"parameters": {
+						"text": "\"GPU\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "GPU",
+					"sid": 225809387343400,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 702496374885219
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "RAMTexto",
+					"sid": 349685517206707,
+					"parameters": {
+						"text": "\"RAM\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "RAM",
+					"sid": 509481405467677,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 897463090990817
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "VentiladorTexto",
+					"sid": 166204939610079,
+					"parameters": {
+						"text": "\"Ventilador\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Ventilador",
+					"sid": 343831158448444,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 649505654824329
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Conexiones",
+					"sid": 429795403920802,
+					"parameters": {
+						"object": "PlacaBase"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "PlacaBase",
+					"sid": 918111493761793,
+					"parameters": {
+						"x": "1025",
+						"y": "365"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "PlacaBase",
+					"sid": 784768031279105,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 689001532349430,
+					"parameters": {
+						"variable": "Contador",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 174612835308580
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "GPU",
+					"sid": 375143377203875,
+					"parameters": {
+						"object": "HITGPU"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "GPU",
+					"sid": 977851848482179,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "GPU",
+					"sid": 446817731518697,
+					"parameters": {
+						"x": "0980",
+						"y": " 404"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 424567438873845,
+					"parameters": {
+						"variable": "Contador",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 799097294366152
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "FDA",
+					"sid": 865004610960632,
+					"parameters": {
+						"object": "HITFDA"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "FDA",
+					"sid": 142865730522205,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "FDA",
+					"sid": 151310653742283,
+					"parameters": {
+						"x": "985",
+						"y": " 543"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 459937896218199,
+					"parameters": {
+						"variable": "Contador",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 176242726264721
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CPU",
+					"sid": 890970112940539,
+					"parameters": {
+						"object": "HITCPU"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "CPU",
+					"sid": 304947310914954,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "CPU",
+					"sid": 907660484241885,
+					"parameters": {
+						"x": "1031",
+						"y": "307"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 841205337971161,
+					"parameters": {
+						"variable": "Contador",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 725189604191921
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "RAM",
+					"sid": 266313140098148,
+					"parameters": {
+						"object": "HITRAM"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "RAM",
+					"sid": 304155903852343,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "RAM",
+					"sid": 258492407826108,
+					"parameters": {
+						"x": "1103",
+						"y": "302"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 812994868728489,
+					"parameters": {
+						"variable": "Contador",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 917500653313074
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Ventilador",
+					"sid": 265444379803335,
+					"parameters": {
+						"object": "HITVENTILADOR"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Ventilador",
+					"sid": 317197318943139,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Ventilador",
+					"sid": 742271429938438,
+					"parameters": {
+						"x": "1023",
+						"y": " 302"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 985414036596109,
+					"parameters": {
+						"variable": "Contador",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 521624228197811
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 994346233041961
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Contador",
+					"sid": 835081359814299,
+					"parameters": {
+						"text": "Contador"
+					}
+				}
+			],
+			"sid": 304170884489385
+		}
+	],
+	"sid": 763437037062228
+}

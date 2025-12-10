@@ -1,0 +1,9 @@
+{
+	"name": "RAMTexto",
+	"plugin-id": "TextBox",
+	"sid": 991932293357296,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}
